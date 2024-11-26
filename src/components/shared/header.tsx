@@ -4,8 +4,8 @@ import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 export default function Header() {
   return (
-    <header className="container sticky top-0 flex h-16 items-center justify-between">
-      <Link href="/" className="scroll-m-20 text-2xl font-semibold tracking-tight">
+    <header className="container sticky top-0 z-10 flex h-16 items-center justify-between bg-background">
+      <Link href="/" scroll className="scroll-m-20 text-2xl font-semibold tracking-tight">
         Nuit Détente
       </Link>
 

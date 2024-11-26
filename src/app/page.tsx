@@ -1,7 +1,15 @@
+import Hero from '@/components/home/hero'
+import Reservations from '@/components/home/reservations'
+import Services from '@/components/home/services'
+import Spaces from '@/components/home/spaces'
+
 export default function Home() {
   return (
-    <div>
-      <p>Hello word</p>
-    </div>
+    <section className="my-10 flex flex-col gap-10 md:my-20 md:gap-20 xl:my-32 xl:gap-32">
+      <Hero />
+      <Spaces />
+      <Services />
+      <Reservations />
+    </section>
   )
 }
