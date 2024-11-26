@@ -23,9 +23,11 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body className={`${inter.className} antialiased`}>
-        <Header />
-        {children}
-        <Footer />
+        <main className="min-h-svh w-full">
+          <Header />
+          {children}
+          <Footer />
+        </main>
       </body>
     </html>
   )

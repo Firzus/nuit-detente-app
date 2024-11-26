@@ -58,3 +58,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .h-screen-minus-header {
+    @apply h-[calc(100svh-64px)] lg:h-[calc(100vh-64px)];
+  }
+
+  .min-h-screen-minus-header {
+    @apply min-h-[calc(100svh-64px)] lg:min-h-[calc(100vh-64px)];
+  }
+}
