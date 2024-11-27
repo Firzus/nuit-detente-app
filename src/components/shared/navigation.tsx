@@ -23,7 +23,7 @@ export default function Navigation() {
         <Link className="text-muted-foreground hover:text-foreground" href="#services">
           Services
         </Link>
-        <Link className="text-muted-foreground hover:text-foreground" href="#reservations">
+        <Link className="text-muted-foreground hover:text-foreground" href="#reservation">
           Réservation
         </Link>
       </nav>

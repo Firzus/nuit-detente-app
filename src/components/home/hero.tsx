@@ -21,7 +21,7 @@ export default function Hero() {
         </Button>
 
         <Button asChild variant="ghost">
-          <Link href="#reserver">Réserver</Link>
+          <Link href="#reservation">Réserver</Link>
         </Button>
       </span>
 

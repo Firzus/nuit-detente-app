@@ -1,5 +1,5 @@
 import Hero from '@/components/home/hero'
-import Reservations from '@/components/home/reservations'
+import Reservation from '@/components/home/reservation'
 import Services from '@/components/home/services'
 import Spaces from '@/components/home/spaces'
 
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <Spaces />
       <Services />
-      <Reservations />
+      <Reservation />
     </section>
   )
 }
