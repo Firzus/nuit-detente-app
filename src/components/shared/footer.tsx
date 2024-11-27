@@ -45,7 +45,12 @@ export default function Footer() {
         <li className="min-w-80 text-sm">
           <p className="font-semibold">Entreprise</p>
           <nav className="mt-6 space-y-4">
-            {[['Statut', '/statut']].map(([title, url], index) => (
+            {[
+              [
+                'Statut',
+                'https://annuaire-entreprises.data.gouv.fr/entreprise/pole-dance-moving-914840848',
+              ],
+            ].map(([title, url], index) => (
               <Link
                 key={index}
                 className="block text-muted-foreground hover:text-foreground"
