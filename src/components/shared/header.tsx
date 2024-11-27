@@ -1,5 +1,5 @@
 import Navigation from '@/components/shared/navigation'
-import { Button } from '@/ui/button'
+import { Button } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 export default function Header() {

@@ -1,7 +1,7 @@
 'use client'
 
 import { useIsSmallScreen } from '@/hooks/use-is-small-screen'
-import { Button } from '@/ui/button'
+import { Button } from '@/components/ui/button'
 import { Menu } from 'lucide-react'
 import Link from 'next/link'
 

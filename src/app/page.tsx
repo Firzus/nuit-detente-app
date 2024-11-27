@@ -5,7 +5,7 @@ import Spaces from '@/components/home/spaces'
 
 export default function Home() {
   return (
-    <section className="my-10 md:my-20 xl:my-32">
+    <section className="my-10 sm:my-20 xl:my-32">
       <Hero />
       <Spaces />
       <Services />
