@@ -57,7 +57,7 @@ export default function Footer() {
       </ul>
       <div className="flex h-16 border-t">
         <p className="container my-auto text-center text-sm text-muted-foreground xl:text-start">
-          Copyright © 2024. All rights reserved.
+          Copyright © 2024. Tous droits réservés.
         </p>
       </div>
     </footer>
