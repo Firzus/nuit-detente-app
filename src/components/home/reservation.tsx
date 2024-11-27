@@ -3,8 +3,9 @@ import { Button } from '@/components/ui/button'
 
 export default function Reservation() {
   return (
-    <div id="reservation" className="mt-10 h-[600px] bg-secondary sm:mt-20 xl:mt-32 xl:h-[800px]">
-      <div className="container flex size-full flex-col items-center justify-center gap-6">
+    <div className="min-h-screen-minus-header relative mt-10 flex bg-secondary sm:mt-20 xl:mt-32">
+      <span id="reservation" className="sr-only absolute -top-16" />
+      <div className="container flex flex-col items-center justify-center gap-6">
         <h2 className="scroll-m-20 text-center text-3xl font-semibold tracking-tight first:mt-0">
           Réserver mon séjour
         </h2>
