@@ -6,6 +6,7 @@ export default function Spaces() {
       <h2 className="scroll-m-20 text-center text-3xl font-semibold tracking-tight first:mt-0">
         Explorer vos espaces
       </h2>
+
       <p className="mt-6 text-center text-sm text-muted-foreground">
         Découvrez des espaces élégants et privatifs alliant détente, bien-être et prestations haut
         de gamme, pour une expérience inoubliable au cœur de votre suite.
