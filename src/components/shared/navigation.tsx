@@ -37,7 +37,7 @@ export default function Navigation() {
         {/* Menu Popup */}
         {isOpen && (
           <div className="fixed left-0 top-0 z-20 size-full overflow-y-auto backdrop-blur xl:hidden">
-            <div className="fixed right-4 top-4 w-80 border bg-white p-4 drop-shadow">
+            <div className="fixed right-4 top-4 w-80 border bg-white p-4 drop-shadow sm:right-8 sm:top-8">
               <Button
                 className="absolute right-4 top-4"
                 variant="ghost"
@@ -55,7 +55,7 @@ export default function Navigation() {
                 ].map(([title, url], index) => (
                   <Link
                     key={index}
-                    className="block w-fit text-muted-foreground hover:text-foreground [&:not(:first-child)]:mt-2"
+                    className="block w-fit text-sm text-muted-foreground hover:text-foreground sm:text-base [&:not(:first-child)]:mt-2"
                     href={url}
                     onClick={() => setIsOpen(false)}
                   >
@@ -82,15 +82,15 @@ export default function Navigation() {
   } else {
     return (
       <nav className="flex space-x-4 rounded-full border px-6 py-2">
-        <Link className="text-muted-foreground hover:text-foreground" href="#espaces">
-          Espaces
-        </Link>
-        <Link className="text-muted-foreground hover:text-foreground" href="#services">
-          Services
-        </Link>
-        <Link className="text-muted-foreground hover:text-foreground" href="#reservation">
-          Réservation
-        </Link>
+        {[
+          ['Espaces', '#espaces'],
+          ['Services', '#services'],
+          ['Réservation', '#reservation'],
+        ].map(([title, url], index) => (
+          <Link key={index} className="text-muted-foreground hover:text-foreground" href={url}>
+            {title}
+          </Link>
+        ))}
       </nav>
     )
   }
