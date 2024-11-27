@@ -5,6 +5,7 @@ export default function Reservation() {
   return (
     <div className="min-h-screen-minus-header relative mt-10 flex bg-secondary sm:mt-20 xl:mt-32">
       <span id="reservation" className="sr-only absolute -top-16" />
+
       <div className="container flex flex-col items-center justify-center gap-6">
         <h2 className="scroll-m-20 text-center text-3xl font-semibold tracking-tight first:mt-0">
           Réserver mon séjour
@@ -12,7 +13,8 @@ export default function Reservation() {
 
         <p className="text-center text-sm text-muted-foreground">
           Offrez-vous un moment d&apos;évasion unique en réservant votre séjour dans cette suite
-          d&apos;exception, où luxe et relaxation se conjuguent pour créer des souvenirs mémorables.
+          d&apos;exception, <br className="hidden xl:block" />
+          où luxe et relaxation se conjuguent pour créer des souvenirs mémorables.
         </p>
 
         <Button asChild>

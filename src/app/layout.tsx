@@ -23,11 +23,9 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="fr">
       <body className={inter.className}>
-        <main className="min-h-svh w-full">
-          <Header />
-          {children}
-          <Footer />
-        </main>
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   )

@@ -14,14 +14,17 @@ export default function Services() {
   )
 
   return (
-    <div id="services" className="container flex flex-col items-center pt-10 sm:pt-20 xl:pt-32">
+    <div className="container relative flex flex-col items-center pt-10 sm:pt-20 xl:pt-32">
+      <span id="services" className="sr-only absolute -top-12" />
+
       <h2 className="scroll-m-20 text-center text-3xl font-semibold tracking-tight first:mt-0">
         Découvrir nos services
       </h2>
 
       <p className="mt-6 text-center text-sm text-muted-foreground">
         Explorez une gamme de services personnalisés, conçus pour sublimer votre séjour : massages,
-        délices gourmands, et attentions exclusives directement dans le confort de votre suite.
+        délices gourmands, <br className="hidden xl:block" />
+        et attentions exclusives directement dans le confort de votre suite.
       </p>
 
       <Carousel
