@@ -2,7 +2,7 @@ import { spacesCardData } from '@/data/spaces-card-data'
 
 export default function Spaces() {
   return (
-    <div id="espaces" className="container flex flex-col items-center pt-10 sm:pt-20 xl:pt-32">
+    <div id="espaces" className="container mt-10 flex flex-col items-center sm:pt-20 xl:pt-32">
       <h2 className="scroll-m-20 text-center text-3xl font-semibold tracking-tight first:mt-0">
         Explorer vos espaces
       </h2>

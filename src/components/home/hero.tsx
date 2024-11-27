@@ -25,13 +25,16 @@ export default function Hero() {
         </Button>
       </span>
 
-      <Image
-        className="mt-16 aspect-video rounded-3xl object-cover object-center"
-        src={HeroIMG}
-        alt="Aperçu de la suite avec piscine intérieure."
-        sizes="(min-width: 1280px) 960px, 100vw"
-        priority
-      />
+      <div className="relative mt-16 aspect-video size-full overflow-hidden rounded-3xl">
+        <Image
+          className="object-cover object-center"
+          src={HeroIMG.src}
+          alt="Aperçu de la suite avec piscine intérieure."
+          priority
+          fill
+          sizes="(min-width: 1280px) 960px, 100vw"
+        />
+      </div>
     </div>
   )
 }
