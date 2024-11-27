@@ -12,7 +12,7 @@ export default function Hero() {
 
       <p className="mt-6 text-center text-muted-foreground">
         Venez passer un agréable moment dans cette suite magnifique suite avec piscine intérieure et
-        jacuzzi.
+        jacuzzi à Rodez.
       </p>
 
       <span className="mt-6 space-x-4">

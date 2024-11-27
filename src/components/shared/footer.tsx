@@ -35,7 +35,6 @@ export default function Footer() {
                 key={index}
                 className="block text-muted-foreground hover:text-foreground"
                 href={url}
-                target="_blank"
               >
                 {title}
               </Link>
