@@ -25,7 +25,7 @@ export default function Services() {
       </p>
 
       <Carousel
-        className="mt-16 w-full max-w-[700px]"
+        className="mt-16 w-full max-w-[600px]"
         opts={{
           loop: true,
         }}
