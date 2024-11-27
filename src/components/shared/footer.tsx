@@ -15,7 +15,7 @@ export default function Footer() {
             ].map(([title, url], index) => (
               <Link
                 key={index}
-                className="block text-muted-foreground hover:text-foreground"
+                className="block w-fit text-muted-foreground hover:text-foreground"
                 href={url}
               >
                 {title}
@@ -33,7 +33,7 @@ export default function Footer() {
             ].map(([title, url], index) => (
               <Link
                 key={index}
-                className="block text-muted-foreground hover:text-foreground"
+                className="block w-fit text-muted-foreground hover:text-foreground"
                 href={url}
               >
                 {title}
@@ -45,21 +45,13 @@ export default function Footer() {
         <li className="min-w-80 text-sm">
           <p className="font-semibold">Entreprise</p>
           <nav className="mt-6 space-y-4">
-            {[
-              [
-                'Statut',
-                'https://annuaire-entreprises.data.gouv.fr/entreprise/pole-dance-moving-914840848',
-              ],
-            ].map(([title, url], index) => (
-              <Link
-                key={index}
-                className="block text-muted-foreground hover:text-foreground"
-                href={url}
-                target="_blank"
-              >
-                {title}
-              </Link>
-            ))}
+            <Link
+              className="w-fit text-muted-foreground hover:text-foreground"
+              href="https://annuaire-entreprises.data.gouv.fr/entreprise/pole-dance-moving-914840848"
+              target="_blank"
+            >
+              Statut
+            </Link>
           </nav>
         </li>
       </ul>
