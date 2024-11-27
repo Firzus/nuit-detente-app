@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function PrivacyPolicy() {
   return (
     <section className="container my-10 sm:my-20 xl:my-32">
@@ -95,9 +97,9 @@ export default function PrivacyPolicy() {
 
         <li>
           <strong>Website</strong> refers to Nuit Détente, accessible from&nbsp;
-          <a href="https://nuit-detente-rodez.fr/" rel="external nofollow noopener" target="_blank">
-            https://nuit-detente-rodez.fr/
-          </a>
+          <Link href="https://nuit-detente.fr/" rel="external nofollow noopener" target="_blank">
+            https://nuit-detente.fr/
+          </Link>
         </li>
         <li>
           <strong>You</strong> means the individual accessing or using the Service, or the company,
@@ -187,12 +189,12 @@ export default function PrivacyPolicy() {
         Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies
         remain on Your personal computer or mobile device when You go offline, while Session Cookies
         are deleted as soon as You close Your web browser. Learn more about cookies on the&nbsp;
-        <a
+        <Link
           href="https://www.freeprivacypolicy.com/blog/sample-privacy-policy-template/#Use_Of_Cookies_And_Tracking"
           target="_blank"
         >
           Free Privacy Policy website
-        </a>
+        </Link>
         &nbsp; article.
       </p>
 
