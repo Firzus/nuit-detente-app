@@ -11,11 +11,11 @@ export default function Reservation() {
           Réserver mon séjour
         </h2>
 
-        <p className="text-center text-sm text-muted-foreground">
+        <blockquote className="text-center italic">
           Offrez-vous un moment d&apos;évasion unique en réservant votre séjour dans cette suite
           d&apos;exception, <br className="hidden xl:block" />
           où luxe et relaxation se conjuguent pour créer des souvenirs mémorables.
-        </p>
+        </blockquote>
 
         <Button asChild>
           <Link

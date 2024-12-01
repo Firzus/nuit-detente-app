@@ -18,7 +18,7 @@ export default function Spaces() {
       <ul className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">
         {spacesCardData.map((space, index) => (
           <li className="rounded-lg border bg-white p-6 drop-shadow-xl" key={index}>
-            <h4 className="text-lg font-semibold">{space.title}</h4>
+            <h3 className="text-lg font-semibold">{space.title}</h3>
             <p className="mt-2 text-sm text-muted-foreground">{space.description}</p>
           </li>
         ))}
