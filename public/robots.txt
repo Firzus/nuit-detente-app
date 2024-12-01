@@ -1,0 +1,10 @@
+# Block all crawlers for /accounts
+User-agent: *
+Disallow: /mentions-legales
+Disallow: /politique-confidentialite
+
+# Allow all crawlers
+Allow: /
+
+# Sitemap
+Sitemap: https://nuit-detente.fr/sitemap.xml

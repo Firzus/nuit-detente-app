@@ -1,5 +1,11 @@
 import Link from 'next/link'
 
+import type { Metadata } from 'next'
+export const metadata: Metadata = {
+  robots: 'noindex,nofollow',
+  title: 'Nuit Détente - Politique de Confidentialite',
+}
+
 export default function PrivacyPolicy() {
   return (
     <section className="container my-10 sm:my-20 xl:my-32">
