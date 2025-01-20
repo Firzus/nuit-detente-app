@@ -55,7 +55,7 @@ export default function Navigation() {
                 ].map(([title, url], index) => (
                   <Link
                     key={index}
-                    className="block w-fit text-sm text-muted-foreground hover:text-foreground sm:text-base [&:not(:first-child)]:mt-2"
+                    className="block w-fit text-muted-foreground hover:text-foreground sm:text-base [&:not(:first-child)]:mt-2"
                     href={url}
                     onClick={() => setIsOpen(false)}
                   >
