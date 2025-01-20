@@ -4,6 +4,7 @@ import Footer from '@/components/shared/footer'
 import Header from '@/components/shared/header'
 
 import Analytics from '@/utils/analytics'
+import PlausibleProvider from 'next-plausible'
 
 import { Inter } from 'next/font/google'
 const inter = Inter({
@@ -28,6 +29,11 @@ export default function RootLayout({
     <html className="scroll-smooth" lang="fr">
       <head>
         <Analytics />
+        <PlausibleProvider
+          domain={process.env.NEXT_PUBLIC_ANALYTICS_URL as string}
+          trackLocalhost
+          enabled
+        />
       </head>
       <body className={inter.className}>
         <Header />
