@@ -1,7 +1,11 @@
+import { withPlausibleProxy } from 'next-plausible'
 import type { NextConfig } from 'next'
 
-const nextConfig: NextConfig = {
-  /* config options here */
-}
+/**
+ * Configuration Next.js de base
+ */
+const nextConfig: NextConfig = {}
 
-export default nextConfig
+export default withPlausibleProxy()({
+  ...nextConfig,
+})
