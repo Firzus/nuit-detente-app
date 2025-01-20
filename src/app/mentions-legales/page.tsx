@@ -19,19 +19,19 @@ export default function LegalNotice() {
 
       <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
         <li>
-          <strong>Company Name :</strong> POLE DANCE MOVING
+          <strong>Company Name :</strong> Information not available
         </li>
 
         <li>
-          <strong>Legal Form :</strong> SAS, simplified joint-stock company
+          <strong>Legal Form :</strong> Sole trader
         </li>
 
         <li>
-          <strong>Headquarters :</strong> 5 RUE D&apos;AIGUES PASSES 48000 MENDE
+          <strong>Headquarters :</strong> Rodez
         </li>
 
         <li>
-          <strong>Registration Number :</strong> 914840848
+          <strong>Registration Number :</strong> 81255366700021
         </li>
 
         <li>

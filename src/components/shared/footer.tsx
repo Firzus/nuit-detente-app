@@ -1,5 +1,8 @@
 import Link from 'next/link'
 
+const URL_LEGAL =
+  'https://annuaire-entreprises.data.gouv.fr/etablissement/81255366700021?redirected=1'
+
 export default function Footer() {
   return (
     <footer className="border-t">
@@ -47,7 +50,7 @@ export default function Footer() {
           <nav className="mt-6 space-y-4">
             <Link
               className="w-fit text-muted-foreground hover:text-foreground"
-              href="https://annuaire-entreprises.data.gouv.fr/entreprise/pole-dance-moving-914840848"
+              href={URL_LEGAL}
               target="_blank"
             >
               Statut

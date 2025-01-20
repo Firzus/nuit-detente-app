@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
         Privacy Policy
       </h1>
 
-      <p className="leading-7 [&:not(:first-child)]:mt-6">Last updated: November 27, 2024</p>
+      <p className="leading-7 [&:not(:first-child)]:mt-6">Last updated: January 20, 2025</p>
 
       <p className="leading-7 [&:not(:first-child)]:mt-6">
         This Privacy Policy describes Our policies and procedures on the collection, use and
@@ -59,8 +59,7 @@ export default function PrivacyPolicy() {
 
         <li>
           <strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;,
-          &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Pole Dance Moving, 5 RUE
-          D&apos;AIGUES PASSES, 48000 MENDE.
+          &quot;Us&quot; or &quot;Our&quot; in this Agreement).
         </li>
 
         <li>
