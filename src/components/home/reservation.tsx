@@ -19,9 +19,8 @@ export default function Reservation() {
           où luxe et relaxation se conjuguent pour créer des souvenirs mémorables.
         </blockquote>
 
-        <Button asChild>
+        <Button className="plausible-event-name=Reservation" asChild>
           <Link
-            className="plausible-event-name=Reservation"
             target="_blank"
             href="https://www.airbnb.fr/rooms/45201561?guests=1&adults=1&s=67&unique_share_id=eb46b0c7-5fef-4f88-95d2-4589caae73f6"
           >

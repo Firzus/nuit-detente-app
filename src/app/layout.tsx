@@ -29,7 +29,12 @@ export default function RootLayout({
     <html className="scroll-smooth" lang="fr">
       <head>
         <Analytics />
-        <PlausibleProvider taggedEvents domain={process.env.NEXT_PUBLIC_ANALYTICS_URL as string} />
+        <PlausibleProvider
+          enabled
+          trackLocalhost
+          taggedEvents
+          domain={process.env.NEXT_PUBLIC_ANALYTICS_URL as string}
+        />
       </head>
       <body className={inter.className}>
         <Header />
