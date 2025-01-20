@@ -33,6 +33,8 @@ export default function Hero() {
           priority
           fill
           sizes="(min-width: 1280px) 960px, 100vw"
+          placeholder="blur"
+          blurDataURL={HeroIMG.src}
         />
       </div>
     </div>

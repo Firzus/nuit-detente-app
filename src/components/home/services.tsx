@@ -40,15 +40,13 @@ export default function Services() {
           {servicesCarouselData.map((service, index) => (
             <CarouselItem key={index}>
               <div className="flex flex-col items-center">
-                <div className="relative aspect-video w-full">
+                <div className="relative aspect-video w-full bg-secondary">
                   <Image
                     className="rounded-xl object-cover object-center"
                     src={service.image.src}
                     alt={service.description}
                     sizes="(min-width: 1280px) 960px, 100vw"
                     fill
-                    placeholder="blur"
-                    blurDataURL={service.image.src}
                   />
                 </div>
                 <p className="mt-2 text-sm text-muted-foreground xl:mt-4">{service.description}</p>
