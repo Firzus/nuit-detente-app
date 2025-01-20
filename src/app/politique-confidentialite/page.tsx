@@ -110,7 +110,6 @@ export default function PrivacyPolicy() {
           >
             https://nuit-detente.fr/
           </Link>
-          s
         </li>
         <li>
           <strong>You</strong> means the individual accessing or using the Service, or the company,
