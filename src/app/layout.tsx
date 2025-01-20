@@ -28,7 +28,7 @@ export default function RootLayout({
     <html className="scroll-smooth" lang="fr">
       <head>
         <PlausibleProvider
-          domain={process.env.NEXT_PUBLIC_ANALYTICS_URL as string}
+          domain={process.env.NEXT_BASE_URL as string}
           enabled
           selfHosted
           taggedEvents

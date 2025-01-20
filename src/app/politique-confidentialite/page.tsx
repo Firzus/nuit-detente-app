@@ -102,11 +102,7 @@ export default function PrivacyPolicy() {
 
         <li>
           <strong>Website</strong> refers to Nuit Détente, accessible from&nbsp;
-          <Link
-            href={process.env.NEXT_PUBLIC_BASE_URL as string}
-            rel="external nofollow noopener"
-            target="_blank"
-          >
+          <Link href="/" rel="external nofollow noopener" target="_blank">
             https://nuit-detente.fr/
           </Link>
         </li>
