@@ -30,10 +30,11 @@ export default function RootLayout({
       <head>
         <Analytics />
         <PlausibleProvider
-          enabled
-          trackLocalhost
-          taggedEvents
           domain={process.env.NEXT_PUBLIC_ANALYTICS_URL as string}
+          enabled
+          selfHosted
+          taggedEvents
+          trackLocalhost
         />
       </head>
       <body className={inter.className}>

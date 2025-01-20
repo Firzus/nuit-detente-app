@@ -6,6 +6,8 @@ import type { NextConfig } from 'next'
  */
 const nextConfig: NextConfig = {}
 
-export default withPlausibleProxy()({
+export default withPlausibleProxy({
+  customDomain: process.env.NEXT_PUBLIC_ANALYTICS_URL,
+})({
   ...nextConfig,
 })
