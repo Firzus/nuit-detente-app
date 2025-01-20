@@ -1,7 +1,14 @@
+'use client'
+
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { trackEvent } from '@/utils/track-event'
 
 export default function Reservation() {
+  const handleReservationClick = () => {
+    trackEvent('reservation_click')
+  }
+
   return (
     <div className="min-h-screen-minus-header relative mt-10 flex bg-secondary sm:mt-20 xl:mt-32">
       <span id="reservation" className="sr-only absolute -top-16" />
@@ -17,7 +24,7 @@ export default function Reservation() {
           où luxe et relaxation se conjuguent pour créer des souvenirs mémorables.
         </blockquote>
 
-        <Button asChild>
+        <Button asChild onClick={handleReservationClick}>
           <Link
             target="_blank"
             href="https://www.airbnb.fr/rooms/45201561?guests=1&adults=1&s=67&unique_share_id=eb46b0c7-5fef-4f88-95d2-4589caae73f6"

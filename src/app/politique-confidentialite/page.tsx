@@ -103,9 +103,14 @@ export default function PrivacyPolicy() {
 
         <li>
           <strong>Website</strong> refers to Nuit Détente, accessible from&nbsp;
-          <Link href="https://nuit-detente.fr/" rel="external nofollow noopener" target="_blank">
+          <Link
+            href={process.env.NEXT_PUBLIC_BASE_URL as string}
+            rel="external nofollow noopener"
+            target="_blank"
+          >
             https://nuit-detente.fr/
           </Link>
+          s
         </li>
         <li>
           <strong>You</strong> means the individual accessing or using the Service, or the company,
