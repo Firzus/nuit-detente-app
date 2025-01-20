@@ -27,13 +27,7 @@ export default function RootLayout({
   return (
     <html className="scroll-smooth" lang="fr">
       <head>
-        <PlausibleProvider
-          domain={process.env.NEXT_BASE_URL as string}
-          enabled
-          selfHosted
-          taggedEvents
-          trackLocalhost
-        />
+        <PlausibleProvider domain={process.env.NEXT_BASE_URL as string} selfHosted taggedEvents />
       </head>
       <body className={inter.className}>
         <Header />
