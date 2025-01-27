@@ -22,7 +22,7 @@ export default function Reservation() {
           où luxe et relaxation se conjuguent pour créer des souvenirs mémorables.
         </blockquote>
 
-        <span className="flex gap-4">
+        <span className="plausible-event-name=Contact flex gap-4">
           <Button
             onClick={() =>
               window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`, '_blank')
