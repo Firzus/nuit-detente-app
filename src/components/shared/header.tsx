@@ -14,7 +14,7 @@ export default function Header() {
 
         <Button asChild variant="ghost" className="hidden text-sm text-muted-foreground xl:flex">
           <Link
-            className="plausible-event-name=Reservation"
+            className="plausible-event-name=Disponibilite"
             target="_blank"
             href="https://www.airbnb.fr/rooms/45201561?guests=1&adults=1&s=67&unique_share_id=eb46b0c7-5fef-4f88-95d2-4589caae73f6"
           >
