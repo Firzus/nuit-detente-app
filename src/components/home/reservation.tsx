@@ -22,8 +22,9 @@ export default function Reservation() {
           où luxe et relaxation se conjuguent pour créer des souvenirs mémorables.
         </blockquote>
 
-        <span className="plausible-event-name=Contact flex gap-4">
+        <span className="flex gap-4">
           <Button
+            className="plausible-event-name=Contact"
             onClick={() =>
               window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MESSAGE}`, '_blank')
             }
@@ -31,8 +32,9 @@ export default function Reservation() {
             Contact
           </Button>
 
-          <Button className="plausible-event-name=Reservation" variant="link" asChild>
+          <Button variant="link" asChild>
             <Link
+              className="plausible-event-name=Reservation"
               target="_blank"
               href="https://www.airbnb.fr/rooms/45201561?guests=1&adults=1&s=67&unique_share_id=eb46b0c7-5fef-4f88-95d2-4589caae73f6"
             >
